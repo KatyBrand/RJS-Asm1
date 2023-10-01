@@ -1,0 +1,61 @@
+#main-header {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.btn-search {
+  padding: 10px;
+  background-color: #0071c2;
+  border: none;
+  color: white;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.search-form {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: flex-end;
+  justify-content: space-between;
+  background-color: white;
+  padding: 6px;
+  border: 2.5px solid orange;
+  border-radius: 10px;
+  transform: translateY(50%);
+}
+/* Căn lề cho placeholder */
+::placeholder {
+  text-align: center;
+}
+input[type="email"]::placeholder {
+  text-align: left;
+}
+.search-form input {
+  width: 18vw;
+  border: 0;
+}
+.search-form i {
+  padding-right: 8px;
+}
+.bth-sign-in__register,
+.btn-search {
+  padding: 10px;
+  background-color: #0071c2;
+  border: none;
+  color: white;
+}
+.date-range__display {
+  color: grey;
+  position: relative;
+}
+.date-range {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+.date-range__display span {
+  font-weight: 400;
+}

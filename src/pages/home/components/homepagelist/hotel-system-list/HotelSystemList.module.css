@@ -1,0 +1,44 @@
+.main-section {
+  padding: 3vh 15vw 2vh 15vw;
+  margin-bottom: 1vh;
+  padding-bottom: 0;
+}
+.list-title {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 3vh 15vw 2vh 15vw;
+  margin-bottom: 1vh;
+  padding-bottom: 0;
+  padding-bottom: 20px;
+}
+
+#hotel-system-grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: 40vh; */
+  gap: 2vw;
+  padding-top: 1vh;
+}
+#hotel-system-grid-5 img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 100%;
+  height: 20vh;
+}
+.hotel-system-description {
+  margin-top: 1vh;
+}
+.hotel-system-description__name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.hotel-system-description__count {
+  font-size: 14px;
+}
+img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 100%;
+  height: 14vh;
+}

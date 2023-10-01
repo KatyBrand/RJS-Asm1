@@ -1,0 +1,79 @@
+.detail-container {
+  padding: 3vh 15vw 2vh 15vw;
+}
+.detail-container p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.detail-container h4 {
+  font-weight: 700;
+  padding: 0;
+}
+.detail-header-grid-2 {
+  display: grid;
+  grid-template-columns: 75% 1fr;
+  gap: 20px;
+  padding-top: 8px;
+}
+.detail-btn {
+  border-radius: 6px;
+  padding: 12px;
+  background-color: #0071c2;
+  border: none;
+  color: white;
+}
+
+.btn-container button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+
+.detail-album-grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 8px;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+.detail-album-grid3 img {
+  border-radius: 0;
+  height: 100%;
+}
+.detail-description-grid2 {
+  align-items: center;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 65% 1fr;
+}
+.detail-description-container {
+  background-color: #ebf3ff;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.detail-price-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+h4.price-des {
+  font-weight: 400;
+}
+.address-container i {
+  margin-right: 6px;
+}
+.detail-hotel-distance {
+  color: #0071c2;
+}
+.detail-hotel-description {
+  font-size: 14px;
+  font-weight: 500;
+}
+.detail-hotel-price {
+  color: green;
+}

@@ -1,0 +1,44 @@
+header {
+  position: relative;
+  padding: 2vh 15vw 4vh 15vw;
+  background-color: #003580;
+  color: white;
+}
+.section {
+  padding: 3vh 15vw 2vh 15vw;
+  background-color: #b5cbb6;
+}
+.btn-register,
+.btn-log-in {
+  border: 0;
+  margin-left: 1.5vw;
+  padding: 8px;
+  color: #003580;
+  font-weight: 500;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  text-align: center;
+}
+.flex-nav li {
+  list-style-type: none;
+}
+.nav-wrapper {
+  border-radius: 30%;
+  padding: 8px;
+}
+.nav-wrapper:hover {
+  cursor: pointer;
+}
+.nav-wrapper.active {
+  border: 0.5px solid #ffffff;
+  border-radius: 20px;
+  padding: 8px;
+}

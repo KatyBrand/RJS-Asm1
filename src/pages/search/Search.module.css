@@ -1,0 +1,8 @@
+.search-grid__container {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  padding: 3vh 15vw 2vh 15vw;
+}
+.search-result__container {
+  background-color: azure;
+}
